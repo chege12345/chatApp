@@ -1,0 +1,294 @@
+body{
+    background-color:rgb(241, 236, 236);
+    position: relative;
+    width: 1200px;
+}
+.left-column{
+    background-image: linear-gradient(rgb(131, 18, 207),rgb(137, 18, 192));
+    position: relative;
+    height: 550px;
+    width: 350px;
+    top: -10px;
+    left: -10px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 150px
+}
+.phone-container{
+    position: absolute;
+    height: 420px;
+    width: 250px;
+    background-color: rgb(247, 242, 242);
+    top: 90px;
+    left: 280px;
+    border-radius:20px; 
+}
+.phone-interior{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+
+}
+.semi-top{
+    background-color:rgb(250, 246, 249);
+    height: 20px;
+    width: 120px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0px;
+    left: 65px;
+    z-index: 1000;
+}
+.client-info{
+    background-image: linear-gradient(rgb(201, 139, 243),rgb(137, 18, 192));
+    height: 70px;
+    width: 220px;
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow{
+    height: 15px;
+    width:  15px;
+    margin-right: -35px;
+    margin-left: 10px;
+}
+.client-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-left: -10px;
+    margin-right: -40px;
+}
+.sam-green{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    font-size: 11px;
+    margin-left: 0px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    color: rgb(233, 226, 226);
+    font-family: Rubik;
+   
+
+}
+.walk{
+    color:white;
+    opacity: 0.6;
+    font-size: 9px;
+    font-weight: 700;
+}
+.menu{
+    height:15px;
+    width:15px;
+    padding-right: 10px;
+}
+.chat-wall{
+    position: relative;
+    height: 330px;
+    background-color: rgb(230, 230, 223);
+    margin-top: -350px;
+    width: 220px;
+    margin-left: 14px;
+
+}
+.text-1{
+    position: absolute;
+    width: 110px;
+    font-family: Rubik;
+    font-weight:700;
+    font-size: 7px;
+    left: 10px;
+    background-color:rgb(218, 214, 214);
+    padding-left: 10px;
+    padding-right: 5px;
+    top: 5px;
+    border-radius: 10px;
+    color: rgb(137, 18, 192);
+}
+.text-2{
+    position: absolute;
+    top: 35px;
+    width: 110px;
+    font-size: 7px;
+    font-family: Rubik;
+    font-weight: bold;
+    left: 10px;
+    background-color: rgb(218, 214, 214);
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: rgb(137, 18, 192);
+}
+.dog-images{
+    display:flex;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+
+.dog-images, img{
+    width: 40px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.text-3{
+    position: absolute;
+    top: 120px;
+    width: 110px;
+    font-size: 7px;
+    font-family: Rubik;
+    font-weight: bold;
+    right: 10px;
+    background-color: rgb(218, 214, 214);
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: rgb(48, 47, 47);
+
+}
+.text-4{
+    position: absolute;
+    top: 150px;
+    width: 70px;
+    font-size: 7px;
+    font-family: Rubik;
+    font-weight: bold;
+    right: 10px;
+    background-color: rgb(218, 214, 214);
+    padding-left: 10px;
+    padding-right: 0px;
+    border-radius: 10px;
+    color: rgb(48, 47, 47);
+
+}
+.text-5{
+    position: absolute;
+    top: 180px;
+    width: 110px;
+    font-size: 7px;
+    font-family: Rubik;
+    font-weight: bold;
+    left: 10px;
+    background-color: rgb(218, 214, 214);
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: rgb(137, 18, 192); 
+}
+.price-tag{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    background-image: linear-gradient(to right, rgb(214, 130, 214), rgb(156, 27, 207));
+    top: 220px;
+    left:10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.white-circle{
+    height: 10px;
+    width:  10px;
+    border: 1px solid white;
+    border-radius: 13px;
+    margin-left: 8px;
+    opacity: 0.6;
+}
+.walk-distance{
+    font-size: 10px;
+    margin-left: -12px;
+    padding-top: 3px;
+    color: white;
+    font-weight: 700;
+}
+.walk-distance-2{
+    font-size: 10px;
+    margin-left: -25px;
+    padding-top: 3px;
+    color: white;
+    font-weight: 700;
+}
+.price{
+    color: white;
+    padding-right: 10px;
+    padding-top: 3px;
+    font-size: 15px;
+    font-weight: 1000
+}
+.price-tag-2{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    background-image: linear-gradient(to right, rgb(214, 130, 214), rgb(156, 27, 207));
+    top: 250px;
+    left:10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between; 
+}
+.msg-input{
+    position: absolute;
+    top: 290px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input{
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+    width: 190px;  
+}
+.msg{
+    padding-left: 10px;
+    color: rgb(158, 6, 6);
+}
+.send-icon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: -2px;
+    top:1px
+}
+.text-content{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    width: 355px;
+    margin-left: 50px;
+}
+h1{
+    color: rgb(3, 3, 90);
+    font-family: rubik
+}
+.description{
+    color:rgb(165, 162, 162);
+    line-height: 25px;;
+    font-family: Rubik, sans-serif;
+    font-size: 13px
+}
+.right-column{
+    background-image: linear-gradient(rgb(131, 18, 207),rgb(137, 18, 192));
+    position: absolute;
+    height: 500px;
+    width: 450px;
+    bottom: -50px;
+    right: -400px;
+    opacity: 0.05;
+    border-radius: 320px 320px 0px 0px;
+    
+}
